@@ -1,0 +1,98 @@
+body {
+
+    background: rgb(106, 193, 223);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-transform: uppercase;
+    
+}
+
+.nav {
+    padding-top: 30px;
+    padding-left: 10px;
+    margin: 10px;
+    border: 2px solid rgb(29, 11, 88);
+    height: 100px;
+}
+
+.nav .logo {
+    width: 150px;
+    float: left;
+}
+
+.nav .item {
+    width: 150px;
+    float: right;
+}
+
+.container {
+    width: 80%;
+    margin: 0px auto;
+}
+
+h1 {
+    margin-left: 25%;
+    display: inline-block;
+    padding-bottom: 50px;
+    border-bottom: 2px solid red;
+    
+}
+
+.title {
+    justify-content: center;
+    width: 50%;
+    text-align: center;
+}
+
+.presentation {
+    height: 250px;
+    background: #fff;
+    padding-top: 100px;
+}
+
+.cards-container {
+    background-color: rgb(171, 225, 183);
+}
+
+.cards-section {
+    margin: 0 auto;
+    width: 95%;
+    background-color: rgb(189, 240, 189);
+}
+
+img {
+    width: 100%;
+}
+
+.cards-items {
+    margin: 1.4%;
+    width: 30%;
+    display: inline-block;
+    background-color: rgb(207, 172, 241);
+}
+
+img:hover {
+    transform: translateY(3%);
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+p {
+    text-align: center;
+}
+
+.clearfix {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.footer {
+    text-align: center;
+}
+
+#emailcom {
+    text-transform: lowercase!important;
+}
